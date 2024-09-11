@@ -49,13 +49,14 @@
 .LSegitiga-img-luas{
     height: 300px;
     width: 500px;
-    background-image: url(/Asset/luas-segitiga.jpg);
+    background-image: url(/Asset/luas-segitiga.jpg); 
     background-size: cover;
     background-position: center;
     align-self: center;
     border: 1px solid;
     padding-top: 20px;
-}
+} 
+
 
 .KSegitiga-img-keliling{
     height: 300px;
@@ -66,7 +67,8 @@
     align-self: center;
     border: 1px solid;
     padding-top: 20px;
-}
+} 
+
 
 .LjarGenjang-img-luas{
     height: 300px;
