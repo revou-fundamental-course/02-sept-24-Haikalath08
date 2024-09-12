@@ -26,68 +26,108 @@
     cursor: pointer;
 }
 
+.box-atas{
+    background-color: #2980B9;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    font-size: larger;    
+}
 
-.LSegitiga-header, .KSegitiga-header ,.LjarGenjang-header, .KjarGenjang-header{
+
+.LSegitiga-header, .KSegitiga-header ,.LjarGenjang-header, .KjarGenjang-header, .ringkasanrumus-header{
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
     margin: 0px;
-    background: cornflowerblue;
+    background: #2980B9;
 
 }
 
 .LSegitiga-form-header, .KSegitiga-form-header, .LjarGenjang-form-header, .KjarGenjang-form-header {
     text-align: center;
     font-size: larger;
+    background-color: #2980B9;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
-.LSegitiga-content, .KSegitiga-content, .LjarGenjang-content, .KjarGenjang-content{
+.LSegitiga-content, .KSegitiga-content, .LjarGenjang-content, .KjarGenjang-content, .ringkasanrumus-content{
     display: flex;
     flex-direction: column;
 }
 
-.LSegitiga-img-luas{
-    height: 300px;
-    width: 500px;
-    background-image: url(/Asset/luas-segitiga.jpg); 
-    background-size: cover;
-    background-position: center;
-    align-self: center;
-    border: 1px solid;
-    padding-top: 20px;
-} 
-
-
-.KSegitiga-img-keliling{
-    height: 300px;
-    width: 500px;
-    background-image: url(/Asset/Keliling-segitiga.jpg);
-    background-size: cover;
-    background-position: center;
-    align-self: center;
-    border: 1px solid;
-    padding-top: 20px;
-} 
-
-
-.LjarGenjang-img-luas{
-    height: 300px;
-    width: 350px;
-    background-image:url(/Asset/Luas\ dan\ Keliling\ Jajar\ Genjang.jpg);
-    background-size: cover;
-    background-position: center;
-    align-self: center;
-    border: 1px solid;
+.segitigaCard, .jarGenjangCard{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    color: #c7a900;
+    justify-content: center;
+    margin-left: 13px;
+    margin-top: 12px;
 }
 
-.KjarGenjang-img-keliling{
-    height: 300px;
-    width: 350px;
-    background-image:url(/Asset/Luas\ dan\ Keliling\ Jajar\ Genjang.jpg);
-    background-size: cover;
-    background-position: center;
-    align-self: center;
-    border: 1px solid;
+.ringkasanrumusCard{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    width: 95%;
+    color: wheat;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.segitigaCard img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.jarGenjangCard img{
+    width: 90%;
+    height: 40%;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.ringkasanrumusCard-img{
+    width: 90%;
+    height: 40%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.segitigaCard h2, .jarGenjangCard h2, .ringkasanrumusCard h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: dimgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.segitigaCard p, .jarGenjangCard p {
+    font-size: 1em;
+    color: black;
+    text-align: justify;
+}
+
+.ringkasanrumusCard p{
+    justify-content: center;
+    font-size: 1em;
+    color: black;
 }
 
 
@@ -160,6 +200,7 @@ input[type=number]{
   .show {
     display: block;
 }
+
 
 @media only screen and (max-width: 800px) {
     .main-content{
